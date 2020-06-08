@@ -1,0 +1,51 @@
+.profile {
+	width: 85%;
+	.profile_first {
+		display: flex;
+		justify-content: space-between;
+		.profile_ava {
+			img {
+				width: 150%;
+
+				margin: 15% 0 0 15%;
+			}
+		}
+		.profile_information {
+			margin: 2% 0 0 15%;
+			width: 15%;
+			display: flex;
+			flex-direction: column;
+
+
+			h2 {
+				font-size: 30px;
+				margin-bottom: 2%;
+			}
+			p {
+				font-size: 20px;
+				line-height: 30px;
+			}
+		}
+		.profile_projects {
+			margin: 1% 0 0 5%;
+			width: 50%;
+			img {
+				margin-left: 2%;
+				margin-top: 2%;
+				width: 40%;
+			}
+			h2 {
+				font-size: 30px;
+				margin-left: 30%;
+			}
+		}
+	}
+	.profile_posts {
+		margin: 5%;
+		font-size: 20px;
+		h2 {
+			font-size: 35px;
+			text-align: center;
+		}
+	}
+}

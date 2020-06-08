@@ -1,0 +1,48 @@
+.profile {
+  width: 85%;
+}
+.profile .profile_first {
+  display: flex;
+  justify-content: space-between;
+}
+.profile .profile_first .profile_ava img {
+  width: 150%;
+  margin: 15% 0 0 15%;
+}
+.profile .profile_first .profile_information {
+  margin: 2% 0 0 15%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.profile .profile_first .profile_information h2 {
+  font-size: 30px;
+  margin-bottom: 2%;
+}
+.profile .profile_first .profile_information p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.profile .profile_first .profile_projects {
+  margin: 1% 0 0 5%;
+  width: 50%;
+}
+.profile .profile_first .profile_projects img {
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 40%;
+}
+.profile .profile_first .profile_projects h2 {
+  font-size: 30px;
+  margin-left: 30%;
+}
+.profile .profile_posts {
+  margin: 5%;
+  font-size: 20px;
+}
+.profile .profile_posts h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=Profile.module.css.map */

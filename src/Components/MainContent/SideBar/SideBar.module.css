@@ -1,0 +1,15 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 800px;
+  background: #61DAFB;
+}
+.sideBar .sideBar_item {
+  text-align: center;
+  color: #1F1F24;
+  font-size: 25px;
+  line-height: 60px;
+}
+
+/*# sourceMappingURL=SideBar.module.css.map */
