@@ -1,48 +1,61 @@
 .profile {
+  display: flex;
   width: 85%;
 }
-.profile .profile_first {
+.profile .first_column {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  width: 30%;
+  margin: 3%;
 }
-.profile .profile_first .profile_ava img {
-  width: 150%;
-  margin: 15% 0 0 15%;
+.profile .first_column .profile_ava h2 {
+  margin-left: 12%;
+  margin-bottom: 2%;
+  font-size: 30px;
 }
-.profile .profile_first .profile_information {
-  margin: 2% 0 0 15%;
-  width: 15%;
+.profile .first_column .profile_ava img {
+  width: 70%;
+}
+.profile .first_column .profile_information {
+  margin-top: 15%;
+}
+.profile .first_column .profile_information h2 {
+  font-size: 25px;
+  line-height: 150%;
+}
+.profile .first_column .profile_information p {
+  font-size: 15px;
+  line-height: 150%;
+}
+.profile .second_column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  float: right;
+  margin-top: 3%;
+}
+.profile .second_column .profile_projects {
   display: flex;
   flex-direction: column;
 }
-.profile .profile_first .profile_information h2 {
+.profile .second_column .profile_projects .profile_projects_mainText {
   font-size: 30px;
-  margin-bottom: 2%;
+  margin-left: 32%;
+  margin-bottom: 5%;
 }
-.profile .profile_first .profile_information p {
-  font-size: 20px;
-  line-height: 30px;
+.profile .second_column .profile_projects .profile_projects_images {
+  display: flex;
 }
-.profile .profile_first .profile_projects {
-  margin: 1% 0 0 5%;
+.profile .second_column .profile_projects .profile_projects_images img {
   width: 50%;
+  margin-right: 10%;
 }
-.profile .profile_first .profile_projects img {
-  margin-left: 2%;
-  margin-top: 2%;
-  width: 40%;
+.profile .second_column .profile_posts {
+  margin-top: 10%;
 }
-.profile .profile_first .profile_projects h2 {
+.profile .second_column .profile_posts h2 {
   font-size: 30px;
-  margin-left: 30%;
-}
-.profile .profile_posts {
-  margin: 5%;
-  font-size: 20px;
-}
-.profile .profile_posts h2 {
-  font-size: 35px;
-  text-align: center;
+  margin-left: 32%;
 }
 
 /*# sourceMappingURL=Profile.module.css.map */
