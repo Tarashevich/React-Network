@@ -11,5 +11,8 @@
   font-size: 25px;
   line-height: 60px;
 }
+.sideBar .active {
+  color: white;
+}
 
 /*# sourceMappingURL=SideBar.module.css.map */

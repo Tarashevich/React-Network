@@ -53,6 +53,9 @@
 .profile .second_column .profile_posts {
   margin-top: 10%;
 }
+.profile .second_column .profile_posts input {
+  border: 1px solid black;
+}
 .profile .second_column .profile_posts h2 {
   font-size: 30px;
   margin-left: 32%;

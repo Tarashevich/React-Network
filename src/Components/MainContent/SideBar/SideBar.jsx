@@ -1,19 +1,19 @@
 import React from 'react';
 import x from './SideBar.module.scss';
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 const SideBar = () => {
 	return (
 		<div className={x.sideBar}>
 
-			<Link className={x.sideBar_item}>Profile</Link>
-			<Link className={x.sideBar_item}>Messages</Link>
-			<Link className={x.sideBar_item}>News</Link>
-			<Link className={x.sideBar_item}>My Projects</Link>
-			<Link className={x.sideBar_item}>Settings</Link>
+			<NavLink to={'/Profile'} activeClassName={x.active} className={x.sideBar_item}>Profile</NavLink>
+			<NavLink to={'/Messages'} activeClassName={x.active} className={x.sideBar_item}>Messages</NavLink>
+			<NavLink to={'/News'} activeClassName={x.active} className={x.sideBar_item}>News</NavLink>
+			<NavLink to={'/My Projects'} activeClassName={x.active} className={x.sideBar_item}>My Projects</NavLink>
+			<NavLink to={'/Settings'} activeClassName={x.active} className={x.sideBar_item}>Settings</NavLink>
 
 		</div>
 	);
-}
+};
 
 export default SideBar;

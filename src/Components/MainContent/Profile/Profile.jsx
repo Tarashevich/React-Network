@@ -31,6 +31,8 @@ const Profile = () => {
 
 				<div className={x.profile_posts}>
 					<h2>Posts</h2>
+					<input type="text"/>
+					<button>Post</button>
 					<Post postText='Hi, how are you?' likeCount='32k'/>
 					<Post postText='It is my first page!!!' likeCount='121k'/>
 					<Post postText='Yeeeeeeeesss!!!' likeCount='10m'/>
