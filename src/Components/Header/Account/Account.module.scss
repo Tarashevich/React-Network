@@ -1,0 +1,21 @@
+.account {
+	display: flex;
+	margin-top: 1%;
+	.account_avatar {
+		width: 80px;
+		height: 80px;
+		margin-right: 5%;
+	}
+	.account_text {
+		padding: 10% 0 0 0;
+		font-size: 1vw;
+		color: #535353;
+	}
+	.account_name {
+		font-size: 1.5vw;
+		h3 {
+			padding: 12% 0 0 0 ;
+			color: #61DAFB;
+		}
+	}
+}

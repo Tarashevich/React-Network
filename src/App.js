@@ -2,16 +2,13 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter} from "react-router-dom";
 import Header from "./Components/Header/Header";
-import MainContent from "./Components/MainContent/MainContent";
-import Footer from "./Components/Footer/Footer";
-
+import Main from "./Components/Main/Main";
 const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header/>
-        <MainContent/>
-        <Footer/>
+        < Header />
+        < Main />
       </div>
     </BrowserRouter>
   );

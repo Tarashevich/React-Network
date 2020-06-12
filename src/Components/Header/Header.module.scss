@@ -1,20 +1,12 @@
 .header {
-	height: 150px;
-	background: #1F1F24;
+	height: 130px;
+	background: #222222;
 	display: flex;
-	justify-content: space-between;
-	img {
-		width: 5%;
-		margin:1% 0 0 5%;
-		animation: spin 5s linear 0s infinite;
-	}
-	h1 {
+	position: fixed;
+
+	h2 {
+		font-size: 1.5vw;
 		color: #61DAFB;
-		font-size: 30px;
-		margin: 3% 5% 0 0;
-	}
-	@keyframes spin {
-		from {transform:rotate(0deg);}
-		to {transform:rotate(360deg);}
+		margin: 2.5% 15% 0 0;
 	}
 }

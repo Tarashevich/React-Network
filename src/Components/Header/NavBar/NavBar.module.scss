@@ -1,0 +1,19 @@
+.navBar {
+	display: flex;
+	width: 40%;
+	height: 65%;
+	margin-right: 8%;
+	.navBar_item {
+		margin: 5% 3% 0 0 ;
+		button {
+			color:#61DAFB ;
+			background:#222222;
+			border: 1px solid #61DAFB;
+			&:hover {
+				color: #222222;
+				background: #fff63a;
+				border: 1px solid #fff63a;
+			}
+		}
+	}
+}

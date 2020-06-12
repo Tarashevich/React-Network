@@ -1,13 +1,24 @@
-import React from 'react';
-import x from './Header.module.scss';
+import React from 'react'
+import x from './Header.module.scss'
+import Logo from "./Logo/Logo";
+import NavBar from "./NavBar/NavBar";
+import Account from "./Account/Account";
+
 
 const Header = () => {
-	return (
-		<header className={x.header}>
-			<img className={x.logo} src="https://cdn.worldvectorlogo.com/logos/react-2.svg	" alt=""/>
-			<h1>React-NetWork</h1>
-		</header>
-	);
+
+	return(
+		<div className={x.header}>
+
+			<Logo />
+
+			<h2>React-NetWork</h2>
+
+			<NavBar />
+
+			< Account/>
+		</div>
+	)
 };
 
-export default Header;
+export default Header
