@@ -1,0 +1,51 @@
+.information {
+	width: 30%;
+	height: auto;
+	border: 2px solid #5d5d5d;
+	margin: 5%;
+	padding: 4% 0 4% 0;
+	.information_avatar {
+		display: flex;
+		.information_image {
+			width: 30%;
+			height: auto;
+		}
+		.information_button {
+			margin: 10% 5% 5% 5%;
+			height: 50%;
+			width: 100%;
+		}
+		button {
+			&:hover {
+				color: #3F51B5;
+				background: #222222;
+			}
+		}
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 30px;
+		margin-top: 5%;
+	}
+
+	h3 {
+		text-align: center;
+		margin-top: 5%;
+		font-size: 20px;
+	}
+
+	.information_statistics {
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 10%;
+		background: #222222;
+		.information_statistics_items {
+			display: flex;
+			justify-content: space-between;
+			border-top: 2px solid black;
+			padding: 5%;
+			color: white;
+		}
+	}
+}

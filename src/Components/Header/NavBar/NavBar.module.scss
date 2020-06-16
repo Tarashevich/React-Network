@@ -6,13 +6,9 @@
 	.navBar_item {
 		margin: 5% 3% 0 0 ;
 		button {
-			color:#61DAFB ;
-			background:#222222;
-			border: 1px solid #61DAFB;
 			&:hover {
-				color: #222222;
-				background: #fff63a;
-				border: 1px solid #fff63a;
+				color: #3F51B5;
+				background: #222222;
 			}
 		}
 	}
